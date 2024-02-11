@@ -40,7 +40,7 @@
 1. **Ensure you have committed your changes:**
    ```bash
    git add .
-   git commit -m "Your commit message"
+   git commit -m "Updated"
    ```
 
 2. **Push changes to the remote "mahidul" branch:**
