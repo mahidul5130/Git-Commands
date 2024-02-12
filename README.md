@@ -63,17 +63,22 @@
    git push origin dev
    ```
 
-6. **Switch to the "staging" branch:**
+6. **Push changes to the remote "dev" branch:**
+   ```bash
+   git checkout mahidul
+   ```
+
+7. **Switch to the "staging" branch:**
    ```bash
    git checkout staging
    ```
 
-7. **Merge changes from "mahidul" to "staging":**
+8. **Merge changes from "mahidul" to "staging":**
    ```bash
    git merge mahidul
    ```
 
-8. **Push changes to the remote "staging" branch:**
+9. **Push changes to the remote "staging" branch:**
    ```bash
    git push origin staging
    ```
