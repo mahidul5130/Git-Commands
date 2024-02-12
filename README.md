@@ -63,7 +63,7 @@
    git push origin dev
    ```
 
-6. **Push changes to the remote "dev" branch:**
+6. **Back to "mahidul" branch:**
    ```bash
    git checkout mahidul
    ```
