@@ -82,3 +82,8 @@
    ```bash
    git push origin staging
    ```
+
+10. **Back to "mahidul" branch:**
+   ```bash
+   git checkout mahidul
+   ```
