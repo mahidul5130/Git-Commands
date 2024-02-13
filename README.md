@@ -88,35 +88,42 @@
    git checkout mahidul
    ```
 
+Certainly! Here are the modified instructions to reflect the steps you provided:
+
 # Merge changes from uiux to Mahidul
 
-1. **Ensure you are in the "mahidul" branch:**
+1. **Ensure you are in the "uiux" branch:**
+   ```bash
+   git checkout uiux
+   ```
+
+2. **Pull the latest changes from the remote "origin/uiux" branch:**
+   ```bash
+   git pull origin uiux
+   ```
+
+3. **Switch back to the "mahidul" branch:**
    ```bash
    git checkout mahidul
    ```
 
-2. **Pull the latest changes from the remote repository (optional but recommended):**
-   ```bash
-   git pull origin mahidul
-   ```
-
-3. **Merge the changes from "uiux" into "mahidul":**
+4. **Merge the changes from "uiux" into "mahidul":**
    ```bash
    git merge uiux
    ```
 
    This will bring the changes from the "uiux" branch into your "mahidul" branch.
 
-4. **Resolve any merge conflicts (if any):**
+5. **Resolve any merge conflicts (if any):**
    If Git encounters conflicts during the merge, you'll need to resolve them manually. Git will mark the conflicted files, and you'll need to edit them to resolve the conflicts.
 
-5. **Commit the changes:**
+6. **Commit the changes:**
    After resolving conflicts, if any, commit the changes:
    ```bash
    git commit -m "Merge changes from uiux into mahidul"
    ```
 
-6. **Push the changes to the remote repository:**
+7. **Push the changes to the remote repository:**
    ```bash
    git push origin mahidul
    ```
